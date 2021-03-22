@@ -52,8 +52,7 @@
 }
 
 /* About Page */
-body 
-{
+body {
     font-family: 'Poppins', sans-serif;
     margin: 0;
 }
@@ -63,35 +62,48 @@ h1
   font-family: 'Lobster', cursive;
 }
 
-.card 
-{
+
+div.me {
+  width: 100%;
+  background-color: white;
+  box-shadow: 0 0px 0px 0 rgba(0, 0, 0, 0.5), 0 10px 30px 0 rgba(0, 0, 0, 0.18);
+  margin-bottom: 20px;
+}
+
+img {
+  display: block;
+  margin-left: auto;
+  margin-right: auto;
+}
+
+div.mecontainer {
+  text-align: center;
+  padding: 10px 20px;
+}
+}
+.card {
   box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2);
   margin: 8px;
 }
 
-.about-section 
-{
+.about-section {
   padding: 50px;
   text-align: center;
   background-color: #474e5d;
   color: white;
-  margin: 0.5em;
 }
 
-.container 
-{
+.container {
   padding: 0 16px;
 }
 
-.container::after, .row::after 
-{
+.container::after, .row::after {
   content: "";
   clear: both;
   display: table;
 }
 
-.title 
-{
+.title {
   color: grey;
 }
 
@@ -118,7 +130,8 @@ h1
   color: white;
 }
 
-.container {
+.container 
+{
   padding: 0 16px;
 }
 
@@ -127,12 +140,6 @@ h1
   clear: both;
   display: table;
 }
-
-.title {
-  color: grey;
-}
-
-
 
 /* Album Page */
 
