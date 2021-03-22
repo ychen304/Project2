@@ -1,3 +1,4 @@
+/* navbar */
 #main-navbar
 {
 	background-color: #575757;
@@ -49,6 +50,7 @@
  	text-decoration: underline;
 }
 
+/* About Page */
 body {
   font-family: 'Lobster', cursive; 	
   margin: 0;
@@ -78,7 +80,7 @@ body {
   color: grey;
 }
 
-
+/* Resume Page */
 
 
 
