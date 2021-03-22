@@ -1,1 +1,103 @@
-asd
+#main-navbar
+{
+	background-color: #575757;
+	overflow: hidden;
+	width: 100%;
+}
+
+#navbar-container
+{
+	float: left;
+	width: 100%;
+	position: relative;
+}
+
+#main-navbar ul
+{
+	list-style-type: none;
+	margin: 1;
+	padding: 1;
+    left: 50%;
+ 	float: left;
+ 	position: relative;
+}
+
+#main-navbar ul li
+{
+    display: block;
+ 	float: left;
+ 	right: 50%;
+ 	position: relative;
+}
+
+#main-navbar ul li a
+{
+	display: block;
+	padding: 15px 25px;
+	color: #fff;
+	text-decoration: none;
+}
+
+
+#main-navbar ul li a:hover
+{
+	background-color: #696969;
+}
+
+#main-navbar #onpage
+{
+ 	text-decoration: underline;
+}
+
+body {
+  font-family: 'Lobster', cursive; 	
+  margin: 0;
+}
+
+.about-section {
+  padding: 50px;
+  text-align: center;
+  background-color: #474e5d;
+  color: white;
+}
+
+.container {
+  padding: 0px 20px;
+    text-align: center;
+
+
+}
+
+.container::after, .row::after {
+  content: "";
+  clear: both;
+  display: table;
+}
+
+.title {
+  color: grey;
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
