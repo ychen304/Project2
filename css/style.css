@@ -51,6 +51,50 @@
  	text-decoration: underline;
 }
 
+/* About Page */
+body 
+{
+    font-family: 'Poppins', sans-serif;
+    margin: 0;
+}
+
+h1
+{
+  font-family: 'Lobster', cursive;
+}
+
+.card 
+{
+  box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2);
+  margin: 8px;
+}
+
+.about-section 
+{
+  padding: 50px;
+  text-align: center;
+  background-color: #474e5d;
+  color: white;
+  margin: 0.5em;
+}
+
+.container 
+{
+  padding: 0 16px;
+}
+
+.container::after, .row::after 
+{
+  content: "";
+  clear: both;
+  display: table;
+}
+
+.title 
+{
+  color: grey;
+}
+
 /* Resume Page */
 body {
     font-family: 'Poppins', sans-serif;
@@ -88,7 +132,9 @@ h1
   color: grey;
 }
 
-/* About Page */
+
+
+/* Album Page */
 
 
 
